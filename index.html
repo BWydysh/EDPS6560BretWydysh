@@ -9,22 +9,59 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>Digital Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">      
+<style>
+    
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}   
+    
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;    
+    }
+    
+nav {
+  text-align: center;
+  padding: 20px;
+  color: maroon;
+}    
+</style>
   </head>
   <body style="background-color:black;color:white;">
     
-    <h1> Bret Wydysh: Digital Portfolio</h1>
+    <header><strong>Bret Wydysh: Digital Portfolio</strong></header>
       
       <nav>
-        <span>|</span><a href="#">HOME</a><span> | </span>
-        <a href="pages/CV.html">Curriculum Vitae</a><span> | </span>
-        <a href="pages/projects.html">Projects</a><span> | </span>
-        <a href="pages/aboutme.html">About Me</a><span> | </span>  
+        <span>|</span><a href="#">Home</a><span> | </span>
+        <a href="#cv">Curriculum Vitae</a><span> | </span>
+        <a href="#Projects">Projects</a><span> | </span>
+        <a href="#about_me">About Me</a><span> | </span>  
       </nav> 
       
-      <div class="container"> <!--Start Containter-->
+      <div id="intro" class="container"> <!--Start Containter-->
           <div class="row"> <!--Start Row 1-->
               <div class="col-l"> <!--Start Column 1-->
-                 <img src="img/LCC_Fall_Web.jpg" alt="Fall in Little Cottonwood Canyon" width="1024" height="auto">
+                 <img src="img/LCC_Fall_Web.jpg" alt="Fall in Little Cottonwood Canyon" width="1024" height="auto" >
               </div> <!--End Column 1-->    
           </div><!--End Row 1-->
           
@@ -38,8 +75,68 @@
           </div> <!--End Row 2-->
       </div> <!--End Container-->
       
+      <div id="cv" class="container">
+          <div class="row">
+              <div class="col-md">
+                  <h3>Curriculum Vitae:</h3>
+                  <h4>Education:</h4>
+       <ul>
+           <li><strong>University of Utah</strong><br>Degree in progress: M.Ed. Instructinoal Design and Educational Technology<br>Years attended:2018-Current</li>
+           <li><strong>SUNY Upstate Medical University</strong><br>Degree: Bachelor of Science in Respiratory Care<br>Years attended: 2002-2004</li>
+           <li><strong>Mohawk Valley Community College</strong><br> Degree: None<br> Years attended: 1999-2002</li>
+     </ul>
+     
+     <hr>
+     
+     <h4>Employment:</h4>
+       <ul>
+           <li><strong>University of Utah Medical Center</strong><br>Department(s): Respiratory Therapy, 2006-Current; AirMed Perinatal Transport Team, 2014-Current</li>
+           <li><strong>4Frnt Skis</strong><br>Department: White room ski production, 2010-2014</li>
+           <li><strong>Massachusetts General Hospital</strong><br>Department: Respiratory Therapy, June 2004-September 2006</li>
+     </ul>
+              </div>
+          </div>
+      </div> <!--End of Container-->
       
+      <div id="Projects" class="container">
+          <div class="row">
+            <div class="col-4">
+                <h3>Projects:</h3>
+                 <h4>Instructional Design:</h4>
+              </div>
+              <div class="col-4">
+                  <br>
+                  <br>
+                  <h4>HCI:</h4>
+              </div>
+              <div class="col-4">
+                  <br>
+                  <br>
+                  <h4>Photoshop:</h4>
+              </div>
+          </div>
+      </div> <!--End of container-->
       
+      <div id="about_me" class="container">
+          <div class="row">
+              <div class="col-md">
+                  <h3>About me:</h3>
+                 <p>I'm a flight respiratory therapist and clinical educator for AirMed at the Univeristy of Utah. My clinical and teaching interests include mechanical ventilation, point of care ultrasound, and any topic my team needs updating on. I moved to Salt Lake City in 2006 from Boston, MA. Along with my job at the University I worked part time with 4Frnt Skis to produce the first 4 generations of the Renegade ski and also the Raven and Wise pro model half-pipe skis. I have been a life long skier and enjoy making turns at Alta and Snowbird.</p>
+              </div>
+          </div>
+      </div> <!--end of container-->
+      
+      <div id="contact" class="container">
+          <div class="row">
+              <div class="col-md">
+                  <br>
+                 <h2>Find me here:</h2><a href="https://twitter.com/SkierBW" target="_blank" class="fa fa-twitter"></a><a href="https://www.instagram.com/skierbw/" target="_blank" class="fa fa-instagram"></a>
+                  <br>
+                  <br>
+                  
+              </div>
+          </div>
+      </div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
