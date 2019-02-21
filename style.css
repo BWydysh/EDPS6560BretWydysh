@@ -1,0 +1,56 @@
+body{
+    background-color: tan;
+    color: darkolivegreen;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;    
+    }
+    
+nav {
+  text-align: center;   
+  padding: 20px;
+  color: maroon;      
+      
+}  
+a:link, a{
+    color:maroon;
+}
+a:visited{
+    color:darkolivegreen;
+}
+a:hover{
+    color:darkblue;
+}
+a:active{
+    color:grey;
+}
+
+hr{
+  color:darkolivegreen;
+  padding: 50px;    
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}   
+    
