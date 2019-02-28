@@ -54,9 +54,11 @@ hr{
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  align-content: center;    
 }
 .fa-instagram {
   background: #125688;
   color: white;
+   align-content: center;    
 }   
     
