@@ -1,135 +1,126 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <title>Digital Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+      <!-- External Stylesheets -->
     <link rel="stylesheet" href="style.css" type="text/css">
+      
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Internal Stylesheet -->
-    <style>
-    </style>
-
+    <title> BW Digital Portfolio</title>
 </head>
-
-<body>
-
-    <header><strong>Bret Wydysh: Digital Portfolio</strong></header>
-
-    <nav>
-        <span>|</span><a href="#">Home</a><span> | </span>
-        <a href="#cv">Curriculum Vitae</a><span> | </span>
-        <a href="#Projects">Projects</a><span> | </span>
-        <a href="#about_me">About Me</a><span> | </span>
+    
+     <nav id="navbar">
+        <ul style="list-style-type:none;">
+            <li><span>|</span><a href="#bgrnd" id="home">Home</a><span>|</span></li>
+            <li><span>|</span><a href="#cv" id="cv">Curriculum Vitae</a><span>|</span></li>
+            <li><span>|</span><a href="#projects" id="proj">Projects</a><span>|</span></li>
+            <li><span>|</span><a href="#about_me" id="about">About Me</a><span>|</span></li>
+        </ul>
     </nav>
 
-    <div id="intro" class="container">
-        <!--Start Containter-->
-        <div class="row justify-content-center" style="background-color: darkolivegreen;">
-            <!--Start Row 1-->
-            <div class="col text-center">
-                <!--Start Column 1-->
-                <img src="img/LCC_Fall_Web.jpg" alt="Fall in Little Cottonwood Canyon" width="1024" height="auto">
-            </div> <!--End Column 1-->
-        </div> <!--End Row 1-->
-
-        <div class="row"><!--Start Row 2-->
-            <div class="col-md" style="text-align: center;">
-                <!--Start Column-->
-                <h3>Column 1</h3>
-            </div><!--End Column-->
-            <div class="col-md" style="text-align: center">
-                <h3>Column 2</h3>
+<body>
+    <div id="bgrnd" class="container-fluid">
+        <div class="row align-items-start">
+            <div class="col" id="title">
+                <h1>Bret Wydysh: Digital Portfolio</h1>
             </div>
         </div>
-        <!--End Row 2-->
+        <div class="row align-items-end" id="soc_row">
+            <div class="col" id="social">
+                 <h2>Find me here:</h2><a href="https://twitter.com/SkierBW" target="_blank" class="fa fa-twitter fa-2x"></a><a href="https://www.instagram.com/skierbw/" target="_blank" class="fa fa-instagram fa-2x"></a>
+            </div>
+        </div>
     </div>
-    <!--End Container-->
-
-    <hr>
-
-    <div id="cv" class="container">
+    
+    
+    <div id="cv_head" class="container-fluid">
         <div class="row">
-            <div class="col-md">
+            <div class="col">
                 <h3>Curriculum Vitae:</h3>
                 <h4>Education:</h4>
                 <ul>
-                    <li><a href="https://ed-psych.utah.edu/instructional-design/"><strong>University of Utah</strong></a><br>Degree in progress: M.Ed. Instructinoal Design and Educational Technology<br>Years attended:2018-Current</li>
-                    <li><a href="http://www.upstate.edu/chp/programs/csrc/index.php"><strong>SUNY Upstate Medical University</strong></a><br>Degree: Bachelor of Science in Respiratory Care<br>Years attended: 2002-2004</li>
-                    <li><a href="https://www.mvcc.edu/"><strong>Mohawk Valley Community College</strong></a><br> Degree: None<br> Years attended: 1999-2002</li>
+                    <li><a href="https://ed-psych.utah.edu/instructional-design/" target="_blank"><strong>University of Utah</strong></a><br>Degree in progress: M.Ed. Instructinoal Design and Educational Technology<br>Years attended:2018-Current</li>
+                    <li><a href="http://www.upstate.edu/chp/programs/csrc/index.php" target="_blank"><strong>SUNY Upstate Medical University</strong></a><br>Degree: Bachelor of Science in Respiratory Care<br>Years attended: 2002-2004</li>
+                    <li><a href="https://www.mvcc.edu/" target="_blank"><strong>Mohawk Valley Community College</strong></a><br> Degree: None<br> Years attended: 1999-2002</li>
                 </ul>
 
 
                 <h4>Employment:</h4>
                 <ul>
-                    <li><a href="https://healthcare.utah.edu/locations/hospital/"><strong>University of Utah Medical Center</strong></a><br>Department(s): Respiratory Therapy, 2006-Current; <a href="https://healthcare.utah.edu/airmed/#perinatal">AirMed Perinatal Transport Team</a>, 2014-Current</li>
-                    <li><a href="https://4frnt.com/pages/the-white-room-v2"><strong>4Frnt Skis</strong></a><br>Department: White room ski production, 2010-2014</li>
-                    <li><a href="https://www.massgeneral.org/"><strong>Massachusetts General Hospital</strong></a><br>Department:<a href="https://www.massgeneral.org/nursing-patientcare/services/respiratory.aspx">Respiratory Therapy</a>, June 2004-September 2006</li>
+                    <li><a href="https://healthcare.utah.edu/locations/hospital/" target="_blank"><strong>University of Utah Medical Center</strong></a><br>Department(s): Respiratory Therapy, 2006-Current; <a href="https://healthcare.utah.edu/airmed/#perinatal" target="_blank">AirMed Perinatal Transport Team</a>, 2014-Current</li>
+                    <li><a href="https://4frnt.com/pages/the-white-room-v2" target="_blank"><strong>4Frnt Skis</strong></a><br>Department: White room ski production, 2010-2014</li>
+                    <li><a href="https://www.massgeneral.org/" target="_blank"><strong>Massachusetts General Hospital</strong></a><br>Department: <a href="https://www.massgeneral.org/nursing-patientcare/services/respiratory.aspx" target="_blank">Respiratory Therapy</a>, June 2004-September 2006</li>
                 </ul>
             </div>
         </div>
     </div>
     <!--End of Container-->
+    
+    <div id="sep1" class="container-fluid">
+        <div>
+            <div>
+            
+            </div>
+        </div>
+    </div>
 
-    <hr>
-
-    <div id="proj_head" class="container">
+    
+      <div id="proj_head" class="container-fluid">
         <div class="row">
             <div class="col">
-                <h3>Projects:</h3>
+                <h2 style="color: black;">Projects:</h2>
             </div>
         </div>
         <div id="projects" class="row">
-            <div class="col">HCI:
+            <div class="col"><h3>HCI:</h3>
+                <h4>Low Fidelity Prototype of a training website with a web based application:</h4>
+               <iframe src="https://player.vimeo.com/video/325082384" width="320" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-            <div class="col">Photoshop:
+            <div class="col"><h3>Photoshop:</h3>
             </div>
-            <div class="col">Premiere:
+            <div class="col"><h3>Premiere:</h3>
+                <h4>Portion of an instructional video produced with Adobe Premiere:</h4>
+                <iframe src="https://player.vimeo.com/video/325948654" width="380" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </div>
     <!--End of container-->
 
-    <hr>
+   <div id="sep2">
+       <div>
+           <div></div>
+       </div>
+    </div>
 
-    <div id="about_me" class="container">
+    <div id="about_me" class="container-fluid">
         <div class="row">
             <div class="col-md">
                 <h3>About me:</h3>
-                <p>I'm a flight respiratory therapist and clinical educator for AirMed at the Univeristy of Utah. My clinical and teaching interests include mechanical ventilation, point of care ultrasound, and any topic my team needs updating on. I moved to Salt Lake City in 2006 from Boston, MA. Along with my job at the University I worked part time with 4Frnt Skis to produce the first 4 generations of the Renegade ski and also the Raven and Wise pro model half-pipe skis. I have been a life long skier and enjoy making turns at Alta and Snowbird.</p>
+                <p>I'm a flight respiratory therapist and clinical educator for AirMed at the Univeristy of Utah. My clinical and teaching interests include mechanical ventilation, point of care ultrasound, and any topic my team needs updating on. I moved to Salt Lake City in 2006 from Boston, MA. Along with my job at the University I worked part time with 4Frnt Skis to produce the first 4 generations of the Renegade ski and also the Raven touring ski and Wise pro model half-pipe ski. I have been a life long skier and enjoy making turns at Alta and Snowbird.</p>
+            </div>
+            <div>
+                <img src="img/Backside_75th.jpg" alt="Skiing the backside at Alta" style="width:600px; height:auto;">
+                <h6>Photo Credit:<a href="http://www.westonshirey.com/" target="_blank">Weston Shirey</a></h6>
             </div>
         </div>
     </div>
     <!--end of container-->
 
-    <hr>
 
-    <div id="contact" class="container">
-        <div class="row">
-            <div class="col-md">
-                <br>
-                <h2>Find me here:</h2><a href="https://twitter.com/SkierBW" target="_blank" class="fa fa-twitter"></a><a href="https://www.instagram.com/skierbw/" target="_blank" class="fa fa-instagram"></a>
-                <br>
-                <br>
 
-            </div>
-        </div>
-    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>
